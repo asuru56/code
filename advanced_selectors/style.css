@@ -1,0 +1,10 @@
+main>div {
+  background-color: blue; 
+}
+main>div>div{
+    color:red;
+}
+
+.group1 + div {
+    color:yellow;
+}
