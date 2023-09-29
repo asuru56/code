@@ -8,3 +8,18 @@ main>div>div{
 .group1 + div {
     color:yellow;
 }
+
+/* How to add comments in CSS and How it ends
+And We are trying to understand Pseudo Classes; */
+
+a{
+    text-decoration: underline;
+}
+
+a:link {
+    color:blue;
+}
+
+a:visited{
+    color:red;
+}
