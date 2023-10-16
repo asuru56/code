@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    align-content: space-around;
+}
+
+.image{
+    height:400px;
+    width: 400px;
+    background-color: black;
+}
+
