@@ -25,9 +25,16 @@ a {
 }
 
 .header{
-  display:flex; 
-}
-
-ul{
   display:flex;
+  padding : 8px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
