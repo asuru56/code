@@ -1,11 +1,23 @@
-.container{
+body {
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-content: space-around;
+    height: 100vh; /* Make the body cover the full viewport height */
 }
 
-.image{
-    height:400px;
-    width: 400px;
-    background-color: black;
+.container {
+    display: flex;
+    flex: 1; /* This will make the container occupy half the page */
+}
+ 
+
+img {
+    max-width: 50%; /* Ensure the image doesn't exceed the container width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
+.content {
+    flex: 1; /* Make the content occupy the other half of the container */
+    padding: 20px; /* Add padding or content styling as needed */
+}
